@@ -1,0 +1,18 @@
+/*format the form text*/
+form {
+    font-size: 1.5em;
+    color: #777777;
+}
+textarea {
+    border-style: insert;
+    width: 80%;
+    font-size: 1em;
+}
+input {
+    height: 1%;
+    width: 80%;
+    font-size: .75em;
+}
+article {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}

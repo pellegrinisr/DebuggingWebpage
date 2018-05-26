@@ -1,0 +1,115 @@
+/*stylesheet for index.html */
+
+/*CSS FOR HEADER SECTION*/
+header {
+	background-color: white;
+}
+
+header h1 {
+	font-size: 4em;
+	background-color: #4aaaa5;
+	width: 45%;
+	color: white;
+	margin-bottom: 0;
+	border: 1px solid #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+/*CSS FOR MAIN SECTION*/
+main {
+	background-color: lightgray;
+	padding-bottom: 4em;
+	padding-top: 4em;
+	position: relative;
+}
+
+article img {
+	width: 17em;
+	float: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
+/*CSS for article */
+article {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-bottom: 4em;
+	width: 64%;
+	padding: .5em;
+	border: 1px solid #dddddd;
+}
+
+article h2 {
+	font-size: 2em;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*CSS for NAV Section*/
+nav {
+	position: absolute;
+	top: 10%;	
+	right: 10%; 
+	float: rigth;  
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+/*CSS for footer*/
+footer {
+	background-color: #666666;
+	height: 5%;
+	padding-top: 10px;
+}
+footer p {
+	text-align: center;
+	height: auto;
+}
+
+#footerColor {
+	height: 1em;
+	background-color: #4aaaa5;
+	 
+}
+hr {
+	color: #777777;
+}
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}	
+
+/*Media queries*/
+@media screen and (max-width: 1000px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    nav {
+        clear: both;
+        z-index: 50;
+        
+	}
+}
+
+@media screen and (max-width: 500px) {
+		
+	article img {
+		width: 10%;
+	}
+}

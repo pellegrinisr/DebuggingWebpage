@@ -1,0 +1,63 @@
+article {
+	position: relative;	
+	height: 850px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1.25em;
+	color: white;
+}
+article img {
+	display: block;
+	background-color: lightgray;
+	margin: 1em;
+	
+}
+#node {
+	position: relative;
+	width: 25%;
+	float: left;
+}
+#react {
+	position: relative;
+	width: 25%;
+	float: left;
+	top: 5%;
+	left: 1%;
+}
+#html5 {
+
+	position: absolute;
+	top: 60%;
+	width: 25%;
+	float: left;
+}
+#css3 {
+	position: absolute;
+	top: 60%;
+	float: left;
+	left: 35%;
+	width: 25%;	
+}
+article div {
+	position: absolute;
+	background-color: #4aaaa5;
+	text-align: center;
+	width: 10em;
+	line-height: 1.9em;	
+}
+#nodeLabel {
+	top: 49%;
+	left: 7%;
+}
+#reactLabel {
+	top: 47%;
+	left: 40.5%;
+}
+#html5Label {
+	left: 7%;
+	top: 90.5%;
+}
+#css3Label {
+	left: 41.25%;
+	top: 90.5%;
+	
+}
